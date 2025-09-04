@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+    //method 1(without third variable)
+    int a,b,c;
+    printf("Enter the first number: ");
+    scanf("%d",&a);
+    printf("Enter the second number: ");
+    scanf("%d",&b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("The swapped numbers are %d and %d\n",a,b);
+
+    //method 2(With third variable)
+    c=a;
+    a=b;
+    b=c;
+    printf("The swapped numbers are %d and %d",a,b);
+}

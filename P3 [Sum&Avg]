@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+void main()
+{
+    int a,b,c,sum;
+    float avg;
+    printf("Enter the first number: \n");
+    scanf("%d",&a);
+    printf("Enter the second number: \n");
+    scanf("%d",&b);
+    printf("Enter the third number: ");
+    scanf("%d",&c);
+    sum=a+b+c;
+    printf("The sum of %d,%d and %d is %d\n",a,b,c,sum);
+    avg=(sum/3.0);
+    printf("The average of the given numbers is %f",avg);
+}

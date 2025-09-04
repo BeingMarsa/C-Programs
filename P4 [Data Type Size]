@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+    int a;
+    float b;
+    char c;
+    printf("The size for Integer is %u byte\n",sizeof(a));
+    printf("The size for Float is %u byte\n",sizeof(b));
+    printf("The size for Character is %u byte",sizeof(c));
+}

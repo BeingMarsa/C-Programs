@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main()
+{
+    int side,radius,asqr;
+    float acir;
+    printf("Enter the side of square: ");
+    scanf("%d", &side);
+    asqr=side*side;
+    printf("The area of square is %d\n",asqr);
+    printf("Enter the radius of circle: ");
+    scanf("%d", &radius);
+    acir=3.14*radius*radius;
+    printf("The area of circle is %f",acir);
+}

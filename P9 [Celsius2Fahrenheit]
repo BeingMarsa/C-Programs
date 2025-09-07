@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int far,cel;
+    float cfar,ccel;
+    printf("Enter the Celsius Temperature: ");
+    scanf("%d",&cel);
+    cfar=((cel*9)/5.0+32);
+    printf("%d°C in Fahrenheit will be %f°F\n",cel,cfar);
+    printf("Enter the Fahrenheit Temperature: ");
+    scanf("%d",&far);
+    ccel=((cfar-32)*5/9);
+    printf("%d°F in Celsius will be %f°C",far,ccel);
+}

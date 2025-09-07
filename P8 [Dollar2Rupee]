@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int dollar,rupee,crup;
+    float cdol;
+    printf("Enter the amount in Dollar: ");
+    scanf("%d",&dollar);
+    crup=dollar*85;
+    printf("$%d will be ₹%d\n",dollar,crup);
+    printf("Enter the amount in Rupees: ");
+    scanf("%d",&rupee);
+    cdol=rupee/85.0;
+    printf("₹%d will be $%f",rupee,cdol);
+}
